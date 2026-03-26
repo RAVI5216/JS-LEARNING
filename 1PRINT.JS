@@ -217,5 +217,5 @@ we used to write "store.tagName", this will result in Button, p or etc whatever 
 
 2. Innertext -- that will define that what is inside any tag lets say there is any <div></div> something inside that tag now this
 innertext properties will show you the all the text that is inside that.  By just typing "div.Innertext".*/
-let store=document.querySelector("div");
-console.dir(store);
+// let store=document.querySelector("div");
+// console.dir(store);

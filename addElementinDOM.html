@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWDOMMANUPULATIONS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="firstChoice">MY NAME IS RAVI KUMAR</h1>
+    <h1 class="SecondChoice">MY FRIEND'S NAME IS ABHAY</h1>
+    <p>The person name is Ravi and to whom he is talking about is Abhay Land</p>
+    <button class="id">Click me</button>
+    <button class="id">Click Me again</button>
+     <div class="parent">  
+        <ul><h1>ANIMALS:</h1>        
+            <li>Lions</li>
+            <li>Monkeys</li>
+            <li>Donkeys</li>
+            <li>Tigers</li>
+        </ul>
+     </div>
+</body>
+<script>    
+    const parent=document.querySelector('.parent');
+    console.log(parent);
+    console.log(parent.children);
+    console.log(parent.firstElementChild);
+    console.log(parent.lastElementChild); 
+    console.log(parent.children.length);
+    const ul=document.querySelectorAll('ul');
+    console.dir(ul);
+    console.log('ul');
+    // console.log(ul.children.length);
+    
+    // const convertedArray=Array.from('ul');
+    // convertedArray.forEach((char)=>{
+    //     char.style.color='red';
+    // });
+    // for(let i=0; i<parent.children.length; i++){
+    //     console.log(parent.children[i].innerText);
+    // } 
+    for(let i=0; i<ul.children.length; i++){
+        console.log(ul.children[i].innerText);
+    }
+</script>
+</html>
