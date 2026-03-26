@@ -1,11 +1,2 @@
-
-// const obj = {
-//     name: "John",
-//     age: 30,
-//     sayHello: function() {
-//         console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
-//         console.log(this);
-        
-//     }    
-// }
-// obj.sayHello();
+const arrowFunc6=(v1,v2)=>({username:"Ravi"})
+// console.log(arrowFunc6()) // Output: { username: 'Ravi' }
